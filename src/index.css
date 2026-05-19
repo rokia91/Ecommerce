@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Oswald", serif;
+  font-weight: 500;
+
+ }
+.active{
+  background-color:rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+.slick-prev, .slick-next{
+  display: none !important;
+}
+/* img{
+  width: 200px;
+} */
+#hero{
+  background-image: url('/src/assets/images/hero.jpg');
+  background-size: cover;
+
+}
